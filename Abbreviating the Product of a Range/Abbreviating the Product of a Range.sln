@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abbreviating the Product of a Range", "Abbreviating the Product of a Range\Abbreviating the Product of a Range.csproj", "{BBF9FA25-CEC3-416C-AB8B-E69298A6C471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBF9FA25-CEC3-416C-AB8B-E69298A6C471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF9FA25-CEC3-416C-AB8B-E69298A6C471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF9FA25-CEC3-416C-AB8B-E69298A6C471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF9FA25-CEC3-416C-AB8B-E69298A6C471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A7306EE-C6B2-4CE7-A1D9-D60D5A1F06C4}
+	EndGlobalSection
+EndGlobal
