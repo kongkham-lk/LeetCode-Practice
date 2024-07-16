@@ -8,10 +8,20 @@ string test5 = "yfgnxf";
 string test6 = "ta()usw((((a))))";
 string test7 = "(sugqlinrwj)gasmtbk";
 
+//// invoke method that use Stack<> and Queue<>
 //Console.WriteLine($"Input: {test1} \nExpect: dcba \nOutput: {new Solution().ReverseParentheses(test1)}\n");
-Console.WriteLine($"Input: {test2} \nExpect: iloveu \nOutput: {new Solution().ReverseParentheses(test2)}\n");
+//Console.WriteLine($"Input: {test2} \nExpect: iloveu \nOutput: {new Solution().ReverseParentheses(test2)}\n");
 //Console.WriteLine($"Input: {test3} \nExpect: leetcode \nOutput: {new Solution().ReverseParentheses(test3)}\n");
 //Console.WriteLine($"Input: {test4} \nExpect: apmnolkjihgfedcbq \nOutput: {new Solution().ReverseParentheses(test4)}\n");
 //Console.WriteLine($"Input: {test5} \nExpect: yfgnxf \nOutput: {new Solution().ReverseParentheses(test5)}\n");
 //Console.WriteLine($"Input: {test6} \nExpect: tauswa \nOutput: {new Solution().ReverseParentheses(test6)}\n");
 //Console.WriteLine($"Input: {test7} \nExpect: jwrnilqgusgasmtbk \nOutput: {new Solution().ReverseParentheses(test7)}\n");
+
+// invoke modthod that use Stack<> and string
+Console.WriteLine($"Input: {test1} \nExpect: dcba \nOutput: {new Solution().ReverseParentheses1(test1)}\n");
+Console.WriteLine($"Input: {test2} \nExpect: iloveu \nOutput: {new Solution().ReverseParentheses1(test2)}\n");
+Console.WriteLine($"Input: {test3} \nExpect: leetcode \nOutput: {new Solution().ReverseParentheses1(test3)}\n");
+Console.WriteLine($"Input: {test4} \nExpect: apmnolkjihgfedcbq \nOutput: {new Solution().ReverseParentheses1(test4)}\n");
+Console.WriteLine($"Input: {test5} \nExpect: yfgnxf \nOutput: {new Solution().ReverseParentheses1(test5)}\n");
+Console.WriteLine($"Input: {test6} \nExpect: tauswa \nOutput: {new Solution().ReverseParentheses1(test6)}\n");
+Console.WriteLine($"Input: {test7} \nExpect: jwrnilqgusgasmtbk \nOutput: {new Solution().ReverseParentheses1(test7)}\n");
