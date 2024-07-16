@@ -6,76 +6,34 @@ namespace Reverse_Substrings_Between_Each_Pair_of_Parentheses;
 
 public class Solution
 {
-    public string ReverseParentheses(string s)
+    public string ReverseParentheses(string s) // Optimized logic
     {
-        if (s.Length <= 1)
-            return s;
+        Stack<char> stack = new();
+        Queue<char> queue = new();
 
-        while (s.Contains(")"))
+        foreach (char c in s)
         {
-            int foundIndexOpen = -1;
-            int foundIndexClose = -1;
-
-            bool foundSwapStr = GetBracketIndex(s, ref foundIndexOpen, ref foundIndexClose);
-
-            if (foundSwapStr)
-            {
-                Swap(ref foundIndexOpen, ref foundIndexClose);
-                string pre = s.Substring(0, foundIndexOpen);
-                string mid = s.Substring(foundIndexOpen + 1, foundIndexClose - (foundIndexOpen + 1));
-                string suf = s.Substring(foundIndexClose + 1);
-                mid = ReverseParentheses(mid);
-                mid = ReverseString(mid);
-                s = pre + mid + suf;
-            }
+            if (!c.Equals(')'))
+                stack.Push(c);
             else
             {
-                s = s.Substring(foundIndexOpen + 1, foundIndexClose - (foundIndexOpen + 1));
-                s = ReverseString(s);
+                while (stack.TryPop(out char c1) && !c1.Equals('('))
+                {
+                    Console.WriteLine("c1 is: " + c1);
+                    queue.Enqueue(c1);
+                }
+                Console.WriteLine("Start insert back!!!");
+                while (queue.TryDequeue(out char c2))
+                    stack.Push(c2);
+                Console.WriteLine("Done back!!!");
             }
         }
-
-        return s;
-    }
-
-    private string ReverseString(string s)
-    {
-        if (s.Length <= 1)
-            return s;
 
         string result = "";
-
-        foreach (char substr in s)
-            result = substr + result;
+        while (stack.TryPop(out char r))
+            result = r + result;
 
         return result;
-    }
-
-    private bool GetBracketIndex(string s, ref int foundIndexOpen, ref int foundIndexClose)
-    {
-        for (int i = 0; i < s.Length; i++)
-        {
-            if (s[i].ToString().Equals("("))
-                foundIndexOpen = i;
-            else if (s[i].ToString().Equals(")"))
-                foundIndexClose = i;
-
-            if (foundIndexOpen != -1 && foundIndexClose != -1)
-            {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    private void Swap(ref int foundIndexOpen, ref int foundIndexClose)
-    {
-        if (foundIndexOpen > foundIndexClose)
-        {
-            int temp = foundIndexOpen;
-            foundIndexOpen = foundIndexClose;
-            foundIndexClose = temp;
-        }
     }
 }
 
