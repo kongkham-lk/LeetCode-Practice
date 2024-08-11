@@ -2,12 +2,10 @@ public class Solution {
     public int[] ProductExceptSelf(int[] nums) {
         int[] results = new int[nums.Length];
         int pre = 1; // initilized the left
-        results[0] = pre; // manual set the left as defualt as no left of element zero
         
-        // skip first element
-        for (int i = 1; i < nums.Length; i++) {
-            results[i] = pre * nums[i-1]; 
-            pre = results[i];
+        for (int i = 0; i < nums.Length; i++) {
+            results[i] = pre; // assign all left to an empty result list
+            pre = results[i] * nums[i]; // multiply the left with current nums to be the nex element's left
         }
         
         int pos = nums[nums.Length - 1]; // initilized the right
