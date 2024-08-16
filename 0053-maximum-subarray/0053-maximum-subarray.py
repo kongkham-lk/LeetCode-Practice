@@ -6,19 +6,13 @@ class Solution(object):
         """
 
         maxSum = nums[0]
-        sumTemp = 0
+        currSum = 0
 
         for n in nums:
-            #print("n: ", n)
-
-            sumTemp += n
-            #print("sumTemp: ", sumTemp)
-
-            if maxSum < sumTemp:
-                maxSum = sumTemp
-            #print("maxSum: ", maxSum, "\n")
-
-            if sumTemp < 0:
-                sumTemp = 0
+            if currSum < 0:
+                currSum = 0
+            currSum += n
+            if maxSum < currSum:
+                maxSum = currSum
 
         return maxSum
