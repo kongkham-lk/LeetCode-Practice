@@ -24,13 +24,13 @@ class Solution {
         else if (target < nums[l]) {
             foundIndex = searchTarget(nums, mid, r, target); // first check from the other side
             if (foundIndex == -1) // cover the other side
-                if (nums[mid] > target)
+                if (nums[mid] > target) // determine which side should go to base on the mid, follow the normal binary search logic
                     foundIndex = searchTarget(nums, l, mid, target);
                 else
                     foundIndex = searchTarget(nums, mid, r, target);
         } else if (target > nums[l]) {
-            foundIndex = searchTarget(nums, l, mid, target); // first check from the other side
-            if (foundIndex == -1) // cover the other side
+            foundIndex = searchTarget(nums, l, mid, target);
+            if (foundIndex == -1)
                 if (target < nums[mid])
                     foundIndex = searchTarget(nums, l, mid, target);
                 else
