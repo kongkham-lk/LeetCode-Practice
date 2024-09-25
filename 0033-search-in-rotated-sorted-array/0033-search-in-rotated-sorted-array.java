@@ -18,16 +18,19 @@ class Solution {
         int mid = (r - l) / 2 + l;
         if (nums[l] == target)
             return l;
+        // since the sorted list can randomly start with big number,
+        // which if the target number is smaller, 0, and the starteing el is 4,
+        // it is better to start from the right half, then go the the left if not found on the right
         else if (target < nums[l]) {
-            foundIndex = searchTarget(nums, mid, r, target);
-            if (foundIndex == -1)
+            foundIndex = searchTarget(nums, mid, r, target); // first check from the other side
+            if (foundIndex == -1) // cover the other side
                 if (nums[mid] > target)
                     foundIndex = searchTarget(nums, l, mid, target);
                 else
                     foundIndex = searchTarget(nums, mid, r, target);
         } else if (target > nums[l]) {
-            foundIndex = searchTarget(nums, l, mid, target);
-            if (foundIndex == -1)
+            foundIndex = searchTarget(nums, l, mid, target); // first check from the other side
+            if (foundIndex == -1) // cover the other side
                 if (target < nums[mid])
                     foundIndex = searchTarget(nums, l, mid, target);
                 else
