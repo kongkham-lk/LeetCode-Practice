@@ -5,8 +5,7 @@ public class Solution {
 
         for (int i = 0; i < nums.Length; i++)
         {
-            // skip when encourter repeat element while handle out of bound exception
-            if (i > 0 && nums[i] == nums[i-1])
+            if (i > 0 && nums[i] == nums[i-1]) // skip duplicate el of i
                 continue;
 
             int j = i + 1;
@@ -26,9 +25,8 @@ public class Solution {
                     resultList.Add(new List<int>() {nums[i], nums[j], nums[k]});
                     j++;
                     
-                    while (nums[j] == nums[j-1] && j < k) {
+                    while (nums[j] == nums[j-1] && j < k)  // skip duplicate el of j
                         j++;
-                    }
                 }
             }
         }
