@@ -18,14 +18,7 @@ class Solution {
         int mid = (r - l) / 2 + l;
         if (nums[l] == target)
             return l;
-        else if (target < nums[l]) { // the case that target is smaller than l is passing mid inside prior
-            // since the sorted list can randomly start with big number. 
-            // Which target number is smallest, 0, and the starting el is 4,
-            // thus, better to start from the right half then go the the left, if not found on the right
-            foundIndex = searchTarget(nums, mid, r, target); // first check from the other side
-            if (foundIndex == -1) // cover the other side
-                foundIndex = searchTarget(nums, l, mid, target);
-        } else if (target > nums[l]) {
+        else {
             foundIndex = searchTarget(nums, l, mid, target);
             if (foundIndex == -1)
                 foundIndex = searchTarget(nums, mid, r, target);
