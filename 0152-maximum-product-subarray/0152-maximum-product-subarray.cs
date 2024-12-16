@@ -1,0 +1,27 @@
+public class Solution {
+    public int MaxProduct(int[] nums) {
+        if (!nums.Any()) 
+            return 0;
+        else if (nums.Length == 1)
+            return nums[0];
+        else 
+        {
+            int max = nums[0];
+            int min = nums[0];
+            int ans = nums[0];
+
+            for (int i = 1; i < nums.Length; i++) 
+            {
+                int temp = max;
+
+                max = Math.Max(Math.Max(max * nums[i], min * nums[i]), nums[i]);
+                min = Math.Min(Math.Min(temp * nums[i], min * nums[i]), nums[i]);
+
+                if (ans < max)
+                    ans = max;
+            }
+            return ans;
+        }
+        return 0;
+    }
+}
