@@ -14,8 +14,8 @@ public class Solution {
             {
                 int temp = max * nums[i];
 
-                max = Math.Max(Math.Max(temp, min * nums[i]), nums[i]);
-                min = Math.Min(Math.Min(temp, min * nums[i]), nums[i]);
+                max = Math.Max(Math.Max(temp, min * nums[i]), nums[i]); // keep track of the positive number
+                min = Math.Min(Math.Min(temp, min * nums[i]), nums[i]); // keep track of the negative number
 
                 if (ans < max)
                     ans = max;
