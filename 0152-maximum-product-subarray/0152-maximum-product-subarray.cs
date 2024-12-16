@@ -12,10 +12,10 @@ public class Solution {
 
             for (int i = 1; i < nums.Length; i++) 
             {
-                int temp = max;
+                int temp = max * nums[i];
 
-                max = Math.Max(Math.Max(max * nums[i], min * nums[i]), nums[i]);
-                min = Math.Min(Math.Min(temp * nums[i], min * nums[i]), nums[i]);
+                max = Math.Max(Math.Max(temp, min * nums[i]), nums[i]);
+                min = Math.Min(Math.Min(temp, min * nums[i]), nums[i]);
 
                 if (ans < max)
                     ans = max;
