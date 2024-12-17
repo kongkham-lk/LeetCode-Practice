@@ -3,7 +3,7 @@ public class Solution {
         int[] result = new int[n + 1];
         int sigNum = 2;
         int offset = sigNum / 2;
-        for (int i = 0; i < sigNum && i < n + 1; i++) {
+        for (int i = 0; i < sigNum && i < n + 1; i++) { // for n eq 0 and 1
             int count = 0;
             int temp = i;
             while (temp > 0) {
@@ -13,7 +13,7 @@ public class Solution {
             result[i] = count;
         }
         
-        for (int i = sigNum; i < n + 1; i++) {
+        for (int i = sigNum; i < n + 1; i++) { // for n eq 2 and onward
             if (i == sigNum) {
                 offset = sigNum;
                 sigNum *= 2;
