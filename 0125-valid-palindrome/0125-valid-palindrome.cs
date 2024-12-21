@@ -3,7 +3,7 @@ public class Solution {
         {
             string resultStr = "";
             foreach (char c in s)
-                if (isAlphabet(c))
+                if (char.IsNumber(c) || char.IsLetter(c))
                     resultStr += Char.ToLower(c);
 
             if (!resultStr.Any())
