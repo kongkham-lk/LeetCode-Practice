@@ -1,11 +1,10 @@
 public class Solution {
         public bool IsPalindrome(string s)
         {
-            s = s.ToLower();
             string resultStr = "";
             foreach (char c in s)
                 if (isAlphabet(c))
-                    resultStr += c;
+                    resultStr += Char.ToLower(c);
 
             if (!resultStr.Any())
                 return true;
