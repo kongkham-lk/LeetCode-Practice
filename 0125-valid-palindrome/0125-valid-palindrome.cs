@@ -7,13 +7,12 @@ public class Solution {
                 if (isAlphabet(c))
                     resultStr += c;
 
-            int sizeStr = resultStr.Length;
-            if (sizeStr <= 1)
+            if (!resultStr.Any())
                 return true;
 
             int l = 0;
-            int r = sizeStr - 1;
-            while (l < r)
+            int r = resultStr.Length - 1;
+            while (l <= r)
             {
                 if (!resultStr[l].Equals(resultStr[r]))
                     return false;
@@ -25,6 +24,6 @@ public class Solution {
 
         private bool isAlphabet(char c)
         {
-            return c >= 'a' && c <= 'z' || c >= '0' && c <= '9';
+            return char.IsNumber(c) || char.IsLetter(c);
         }
 }
