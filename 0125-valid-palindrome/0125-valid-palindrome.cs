@@ -9,16 +9,10 @@ public class Solution {
             if (!resultStr.Any())
                 return true;
 
-            int l = 0;
-            int r = resultStr.Length - 1;
-            while (l <= r)
-            {
-                if (!resultStr[l].Equals(resultStr[r]))
-                    return false;
-                l++;
-                r--;
-            }
-            return true;
+            if (resultStr.Equals(string.Join("",resultStr.Reverse())))
+                return true;
+            else
+                return false;
         }
 
         private bool isAlphabet(char c)
