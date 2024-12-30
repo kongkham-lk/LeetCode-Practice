@@ -1,17 +1,20 @@
 public class Solution {
     public int ClimbStairs(int n) {
-        int[] memo = new int[n + 1];
+        int count1 = 0, count2 = 0;
 
         for (int i = n; i >= 0; i--)
         {
             if (i == n)
-                memo[i] = 1;
+                count2 = 1;
             else if (i + 1 == n)
-                memo[i] = memo[n];
-            else if (memo[i + 1] != 0 && memo[i + 2] != 0)
-                memo[i] = memo[i + 1] + memo[i + 2];
+                count1 = count2;
+            else if (count1 != 0 && count2 != 0) {
+                int temp = count2;
+                count2 = count1;
+                count1 = count2 + temp;
+            }
         }
 
-        return memo[0];
+        return count1;
     }
 }
