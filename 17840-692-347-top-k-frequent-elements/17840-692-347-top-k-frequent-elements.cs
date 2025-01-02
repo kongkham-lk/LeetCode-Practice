@@ -1,24 +1,19 @@
 public class Solution {
     public int[] TopKFrequent(int[] nums, int k) {
-        Dictionary<int, int> memo = new Dictionary<int, int>();
+        Array.Sort(nums);
+        int shiftPos = nums[0] < 0 ? nums[0] * -1 : 0;
+        int maxSize = nums.Max() + 1 + shiftPos;
+        int[] memo = new int[maxSize];
         int[] res = new int[k];
         foreach (var num in nums)
-        {
-            if (memo.ContainsKey(num))
-                memo[num]++;
-            else
-                memo.Add(num, 1);
-        }
+            memo[num + shiftPos]++;
 
-        var keyList = memo.Select(x => x.Key).ToArray();
-        var valueList = memo.Select(x => x.Value).ToArray();
-        
         for (int i = 0; i < k; i++)
         {
-            int maxEl = valueList.Max();
-            int index = valueList.ToList().IndexOf(maxEl);
-            valueList[index] = -1;
-            res[i] = keyList[index];
+            int maxEl = memo.Max();
+            int index = memo.ToList().IndexOf(maxEl);
+            memo[index] = 0;
+            res[i] = index - shiftPos;
         }
 
         return res;
