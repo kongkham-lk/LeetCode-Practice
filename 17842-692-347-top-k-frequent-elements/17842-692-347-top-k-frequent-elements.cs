@@ -1,44 +1,28 @@
 public class Solution {
     public int[] TopKFrequent(int[] nums, int k) {
-            Array.Sort(nums);
+            Dictionary<int, int> dict = new Dictionary<int, int>();
             List<int>[] memo = new List<int>[nums.Length];
-            // int maxCount = 0;
-            int prev = int.MinValue;
-            int count = 0;
-            int lastIndex = 0;
             int[] res = new int[k];
-            for (int i = 0; i < nums.Length; i++)
+            foreach (var num in nums)
             {
-                if (i == 0)
-                {
-                    prev = nums[i];
-                    continue;
-                }
-                if (prev == nums[i])
-                {
-                    count++;
-                }
+                if (dict.ContainsKey(num))
+                    dict[num]++;
                 else
-                {
-                    if (memo[count] == null)
-                    {
-                        memo[count] = new List<int>();
-                    }
-                    memo[count].Add(prev);
-                    prev = nums[i];
-                    count = 0;
-                }
+                    dict.Add(num, 0);
             }
 
-            if (prev != int.MinValue && count >= 0)
+            foreach (var el in dict)
             {
-                if (memo[count] == null || !memo[count].Any())
-                    memo[count] = new List<int>();
-                memo[count].Add(prev);
-                count = 0;
-            }
-
+                int c = el.Value;
                 
+                if (memo[c] == null)
+                {
+                    memo[c] = new List<int>();
+                }
+                memo[c].Add(el.Key);
+            }
+                
+            int count = 0;
             for (int i = memo.Length - 1; i >= 0; i--)
             {
                 if (memo[i] != null && memo[i].Any())
