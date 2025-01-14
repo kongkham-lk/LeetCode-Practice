@@ -54,7 +54,7 @@ public class Solution {
             ListNode f = root.next;
 
             // get mid node of linked list
-            while (f.next != null && f.next.next != null)
+            while (f != null && f.next != null)
             {
                 s = s.next;
                 f = f.next.next;
