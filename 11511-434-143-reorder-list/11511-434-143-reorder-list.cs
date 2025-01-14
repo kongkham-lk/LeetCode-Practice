@@ -10,51 +10,34 @@
  * }
  */
 public class Solution {
-    public void ReorderList(ListNode head)
+        public void ReorderList(ListNode root)
         {
-            if (head == null)
+            if (root == null)
                 return;
-            ListNode curr = head;
-            ListNode tail = null;
-            int count = 1;
-            ReverseSecondHalfNodeSet(ref head, ref tail, ref curr, ref count);
-            curr = head;
-            while (curr != tail && curr != null && tail != null)
-            {
-                ListNode temp = curr;
-                curr = curr.next;
-                temp.next = tail;
-                temp = temp.next;
-                tail = tail.next;
-                temp.next = curr;
-            }
-            
-            // set null to next node of the intersect (middle node)
-            if (curr == tail)
-                curr.next = null;
-            else if (curr == null && tail != null)
-                tail.next = null;
-            else if (tail == null && curr != null)
-                curr.next = null;
+            ListNode curr = root;
+            ListNode head = root;
+            ReorderList(ref head, ref curr);
         }
     
-        public void ReverseSecondHalfNodeSet(ref ListNode head, ref ListNode tail, ref ListNode curr, ref int count) 
+        public void ReorderList(ref ListNode head, ref ListNode curr) 
         {
-            if (curr.next == null)
+            if (curr == null) return;
+            
+            // use recursive to reversely iterate linked list
+            ReorderList(ref head, ref curr.next);
+            
+            ListNode tail = curr; // fetch the new tail node
+            if (head == tail.next) // if tail point back to head node, remove the last node's next pointer
+                head.next = null;
+            if (head.next != null)
             {
-                count = count / 2 - 1;
-                tail = curr;
-                return;
+                ListNode temp = head;
+                head = head.next;
+                temp.next = tail;
+                temp = temp.next;
+                temp.next = head;
+                if (head == tail) // if head point to tail node, remove the last node's next pointer
+                    head.next = null;
             }
-            count++;
-            ReverseSecondHalfNodeSet(ref head, ref tail, ref curr.next, ref count);
-            ListNode nextCurr = curr.next;
-            if (count > 0) // only reverse point half of the set by using count
-            {
-                count--;
-                nextCurr.next = curr;
-                curr.next = null;
-            }
-            return;
         }
 }
