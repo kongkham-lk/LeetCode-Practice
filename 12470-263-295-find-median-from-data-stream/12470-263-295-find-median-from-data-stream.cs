@@ -13,7 +13,7 @@ public class MedianFinder {
     public double FindMedian() {
         int size = sortedList.Count;
         if (size % 2 != 0) return sortedList.GetKeyAtIndex(size / 2);
-        return (sortedList.GetKeyAtIndex(size / 2) + sortedList.GetKeyAtIndex((size - 1) / 2)) / (double)2;
+        return (sortedList.GetKeyAtIndex(size / 2) + sortedList.GetKeyAtIndex(size / 2 - 1)) / (double)2;
     }
 }
 // [[],[6],[],[10],[],[2],[],[6],[],[5],[],[0],[],[6],[],[3],[],[1],[],[0],[],[0],[]]
