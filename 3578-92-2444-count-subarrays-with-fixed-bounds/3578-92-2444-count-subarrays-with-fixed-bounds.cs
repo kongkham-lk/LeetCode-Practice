@@ -14,7 +14,9 @@ public class Solution {
                 if (nums[i] == maxK)
                     max = i;
                 if (min != -1 && max != -1)
-                    count += Math.Min(min, max) - inval; // always consider invalid element on the left
+                    // always consider invalid element on the left
+                    // count when both minK and maxK is found
+                    count += Math.Min(min, max) - inval;
             }
         }
         return count;
