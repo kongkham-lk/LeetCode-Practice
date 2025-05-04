@@ -18,7 +18,7 @@ class Solution {
         int mid = (r - l) / 2 + l;
         if (nums[l] == target)
             return l;
-        else {
+        else { // find all possible path. Break down all the left then right
             foundIndex = searchTarget(nums, l, mid, target);
             if (foundIndex == -1)
                 foundIndex = searchTarget(nums, mid, r, target);
