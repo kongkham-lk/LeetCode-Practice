@@ -1,14 +1,9 @@
 public class Solution {
     // Solution 2 - Optimized
     public int MinDominoRotations(int[] tops, int[] bottoms) {
-        int res = int.MaxValue;
-        for (int i = 1; i <= 6; i++) {
-            int temp = GetRotation(tops, bottoms, i);
-            if (temp != int.MaxValue) {
-                Console.Write(i + ", ");
-                res = Math.Min(res, temp);
-            }
-        }
+        int res = GetRotation(tops, bottoms, tops[0]);
+        if (tops[0] != bottoms[0])
+            res = Math.Min(res, GetRotation(tops, bottoms, bottoms[0]));
         return res == int.MaxValue ? -1 : res;
     }
 
