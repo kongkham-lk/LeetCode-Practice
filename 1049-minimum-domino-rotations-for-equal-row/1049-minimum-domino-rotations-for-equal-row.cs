@@ -1,9 +1,12 @@
 public class Solution {
     // Solution 2 - Optimized
+    // No need to check for every face, if any rotation that not match the first rotation then its already wrong
     public int MinDominoRotations(int[] tops, int[] bottoms) {
-        int res = GetRotation(tops, bottoms, tops[0]);
+        int res;
         if (tops[0] != bottoms[0])
-            res = Math.Min(res, GetRotation(tops, bottoms, bottoms[0]));
+            res = Math.Min(GetRotation(tops, bottoms, tops[0]), GetRotation(tops, bottoms, bottoms[0]));
+        else
+            res = GetRotation(tops, bottoms, tops[0]);
         return res == int.MaxValue ? -1 : res;
     }
 
