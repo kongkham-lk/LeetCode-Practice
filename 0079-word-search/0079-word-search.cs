@@ -4,6 +4,7 @@ public class Solution {
     public bool Exist(char[][] board, string word) {
         rSize = board.Length;
         cSize = board[0].Length;
+        // look for the next new position that match word[0]
         for (int i = 0; i < rSize; i++) {
             for (int j = 0; j < cSize; j++) {
                 if (FindWord(board, i, j, word, 0))
@@ -16,8 +17,10 @@ public class Solution {
     private bool FindWord(char[][] board, int i, int j, string word, int c) {
         if (c == word.Length)
             return true;
-        else if (i < 0 || j < 0 || i >= rSize || j >= cSize 
-            || dp.Contains((i, j)) || !board[i][j].Equals(word[c])) 
+        else if (i < 0 || j < 0 
+            || i >= rSize || j >= cSize 
+            || dp.Contains((i, j)) 
+            || !board[i][j].Equals(word[c])) 
             return false;
         
         dp.Add((i, j)); // memo when there is match char
