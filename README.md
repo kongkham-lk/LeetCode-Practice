@@ -38,6 +38,7 @@
 | ------- |
 | [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
+| [1894-merge-strings-alternately](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1894-merge-strings-alternately) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -71,4 +72,8 @@
 |  |
 | ------- |
 | [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
+## Two Pointers
+|  |
+| ------- |
+| [1894-merge-strings-alternately](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1894-merge-strings-alternately) |
 <!---LeetCode Topics End-->
