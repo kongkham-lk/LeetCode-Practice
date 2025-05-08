@@ -40,6 +40,7 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
+| [0806-domino-and-tromino-tiling](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0806-domino-and-tromino-tiling) |
 ## Trie
 |  |
 | ------- |
