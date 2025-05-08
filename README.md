@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0033-search-in-rotated-sorted-array) |
+| [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
 | [0128-longest-consecutive-sequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
 | [0268-missing-number](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0268-missing-number) |
@@ -35,6 +36,7 @@
 ## String
 |  |
 | ------- |
+| [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
 ## Dynamic Programming
 |  |
@@ -57,4 +59,16 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0128-longest-consecutive-sequence) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
