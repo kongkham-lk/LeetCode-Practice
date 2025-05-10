@@ -1,21 +1,27 @@
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         def countEmptyPlot(flowerbed: List[int]) -> int:
+            if len(flowerbed) == 1 and flowerbed[0] == 0:
+                return 1
+
             plot = 0
             empty = True
-            for i in range(len(flowerbed)-1):
-                if flowerbed[i] == 0 and flowerbed[i+1] == 0:
-                    if empty == True:
-                        plot += 1
-                        empty = False
-                        flowerbed[i] = 1
-                    else:
-                        empty = True
-                else:
-                    empty = False
+
+            if (flowerbed[0] == 0 
+                and flowerbed[1] == 0):
+                plot += 1
+                flowerbed[0] = 1
+            for i in range(0,len(flowerbed)-1):
+                if (flowerbed[i-1] == 0 
+                    and flowerbed[i] == 0 
+                    and flowerbed[i+1] == 0):
+                    plot += 1
+                    flowerbed[i] = 1
             if (flowerbed[len(flowerbed)-2] == 0 
                 and flowerbed[len(flowerbed)-1] == 0):
                 plot += 1
             return plot
         
-        return countEmptyPlot(flowerbed) >= n
+        foundPlot = countEmptyPlot(flowerbed)
+        print("found plantable: ", foundPlot)
+        return foundPlot >= n
