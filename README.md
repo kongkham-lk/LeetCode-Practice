@@ -12,6 +12,7 @@
 | [0605-can-place-flowers](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0605-can-place-flowers) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 ## Hash Table
 |  |
 | ------- |
@@ -61,6 +62,7 @@
 | ------- |
 | [0605-can-place-flowers](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0605-can-place-flowers) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 ## Union Find
 |  |
 | ------- |
