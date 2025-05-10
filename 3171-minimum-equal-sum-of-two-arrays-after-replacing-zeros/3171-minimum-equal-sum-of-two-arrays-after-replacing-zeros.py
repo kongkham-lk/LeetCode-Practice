@@ -12,8 +12,8 @@ class Solution:
         findSumAndZero(nums1, 0)
         findSumAndZero(nums2, 1)
 
-        print("sums :", sums[0], ",", sums[1])
-        print("zeros:", zeros[0], ",", zeros[1])
+        # print("sums :", sums[0], ",", sums[1])
+        # print("zeros:", zeros[0], ",", zeros[1])
 
         largerSum = 0
         if sums[largerSum] < sums[largerSum+1]:
@@ -21,8 +21,8 @@ class Solution:
         smallerSum = (largerSum+1)%2
         sum1 = sums[largerSum] + zeros[largerSum]
         sum2 = sums[smallerSum] + zeros[smallerSum]
-        print("sums :", largerSum, sum1, zeros[largerSum], 
-                ",", smallerSum, sum2, zeros[smallerSum])
+        # print("sums :", largerSum, sum1, zeros[largerSum], 
+        #         ",", smallerSum, sum2, zeros[smallerSum])
 
         if (sum1 == sum2 
             or (sum1 > sum2 and zeros[smallerSum] > 0) 
