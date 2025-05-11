@@ -43,6 +43,7 @@
 | ------- |
 | [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
+| [0345-reverse-vowels-of-a-string](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0345-reverse-vowels-of-a-string) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1894-merge-strings-alternately](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1894-merge-strings-alternately) |
 ## Dynamic Programming
@@ -83,5 +84,6 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0345-reverse-vowels-of-a-string](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0345-reverse-vowels-of-a-string) |
 | [1894-merge-strings-alternately](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1894-merge-strings-alternately) |
 <!---LeetCode Topics End-->
