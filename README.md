@@ -8,6 +8,7 @@
 | [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
 | [0128-longest-consecutive-sequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
+| [0238-product-of-array-except-self](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0268-missing-number) |
 | [0605-can-place-flowers](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0605-can-place-flowers) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -88,4 +89,8 @@
 | [0151-reverse-words-in-a-string](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0345-reverse-vowels-of-a-string) |
 | [1894-merge-strings-alternately](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1894-merge-strings-alternately) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
