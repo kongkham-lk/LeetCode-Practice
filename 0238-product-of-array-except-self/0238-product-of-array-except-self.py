@@ -1,28 +1,16 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        totalProd = 1
-        zeros = 0
-        temp = 1
-        res = []
-        for n in nums:
-            if n is not 0:
-                totalProd = totalProd * n
-            else:
-                zeros = zeros + 1
+        n = len(nums)
+        pre = [0] * n
+        post = [0] * n
+        res = [0] * n
+        pre[0] = post[n-1] = 1
 
-        # print(res)
-        if zeros > 1:
-            for n in nums:
-                res.append(0)
-            return res
-        elif zeros > 0:
-            temp = 0
+        for i in range(1, n):
+            pre[i] = pre[i-1] * nums[i-1]
+        for i in range(n-2, -1, -1):
+            post[i] = nums[i+1] * post[i+1]
+        for i in range(n):
+            res[i] = pre[i] * post[i]
             
-        for n in nums:
-            # print(n)
-            if (n is 0):
-                res.append(totalProd)
-            else:
-                prod = totalProd // n * temp
-                res.append(prod)
         return res
