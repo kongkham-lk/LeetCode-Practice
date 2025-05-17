@@ -1,5 +1,3 @@
-import re
-
 class WordDictionary:
 
     def __init__(self):
