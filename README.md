@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0033-search-in-rotated-sorted-array) |
+| [0075-sort-colors](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
 | [0128-longest-consecutive-sequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
@@ -40,6 +41,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0075-sort-colors) |
 | [0268-missing-number](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0268-missing-number) |
 ## String
 |  |
@@ -95,6 +97,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0345-reverse-vowels-of-a-string) |
 | [0443-string-compression](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0443-string-compression) |
