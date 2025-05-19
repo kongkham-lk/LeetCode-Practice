@@ -17,11 +17,13 @@ public class TrieNode {
 public class Solution {
     HashSet<string> res = new HashSet<string>();
     bool[,] visited;
+    int rowSize;
+    int colSize;
 
     public IList<string> FindWords(char[][] board, string[] words) {
         TrieNode root = new TrieNode();
-        int rowSize = board.Length;
-        int colSize = board[0].Length;
+        rowSize = board.Length;
+        colSize = board[0].Length;
         visited = new bool[rowSize,colSize];
 
         // merge all the word with the same partial string
@@ -37,9 +39,6 @@ public class Solution {
     }
 
     private void Dfs(char[][] board, int r, int c, TrieNode curr, string word) {
-        int rowSize = board.Length;
-        int colSize = board[0].Length;
-        
         if (r < 0 || r >= rowSize || c < 0 || c >= colSize
             || visited[r,c] 
             || !curr.child.ContainsKey(board[r][c]))
