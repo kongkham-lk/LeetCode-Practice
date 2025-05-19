@@ -1,19 +1,3 @@
-
-public class TrieNode {
-    public Dictionary<char, TrieNode> child = new Dictionary<char, TrieNode>();
-    public bool isLeaf = false;
-
-    public void Add(string word) {
-        TrieNode curr = this;
-        foreach (char c in word) {
-            if (!curr.child.ContainsKey(c))
-                curr.child.Add(c, new TrieNode());
-            curr = curr.child[c];
-        }
-        curr.isLeaf = true;
-    }
-}
-
 public class Solution {
     HashSet<string> res = new HashSet<string>();
     bool[,] visited;
@@ -30,7 +14,8 @@ public class Solution {
         foreach (string w in words)
             root.Add(w);
 
-        // iterate through each char in the list and see if any of char match with any target word
+        // iterate through the list only once 
+        // see if any of char match with any target word
         for (int i = 0; i < rowSize; i++)
             for (int j = 0; j < colSize; j++)
                 Dfs(board, i, j, root, "");
@@ -60,3 +45,17 @@ public class Solution {
     }
 }
 
+public class TrieNode {
+    public Dictionary<char, TrieNode> child = new Dictionary<char, TrieNode>();
+    public bool isLeaf = false;
+
+    public void Add(string word) {
+        TrieNode curr = this;
+        foreach (char c in word) {
+            if (!curr.child.ContainsKey(c))
+                curr.child.Add(c, new TrieNode());
+            curr = curr.child[c];
+        }
+        curr.isLeaf = true;
+    }
+}
