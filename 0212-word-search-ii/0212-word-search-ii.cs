@@ -1,3 +1,18 @@
+public class TrieNode {
+    public Dictionary<char, TrieNode> child = new Dictionary<char, TrieNode>();
+    public bool isLeaf = false;
+
+    public void Add(string word) {
+        TrieNode curr = this;
+        foreach (char c in word) {
+            if (!curr.child.ContainsKey(c))
+                curr.child.Add(c, new TrieNode());
+            curr = curr.child[c];
+        }
+        curr.isLeaf = true;
+    }
+}
+
 public class Solution {
     HashSet<string> res = new HashSet<string>();
     bool[,] visited;
@@ -45,17 +60,3 @@ public class Solution {
     }
 }
 
-public class TrieNode {
-    public Dictionary<char, TrieNode> child = new Dictionary<char, TrieNode>();
-    public bool isLeaf = false;
-
-    public void Add(string word) {
-        TrieNode curr = this;
-        foreach (char c in word) {
-            if (!curr.child.ContainsKey(c))
-                curr.child.Add(c, new TrieNode());
-            curr = curr.child[c];
-        }
-        curr.isLeaf = true;
-    }
-}
