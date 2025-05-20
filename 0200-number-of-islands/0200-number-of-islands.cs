@@ -12,7 +12,7 @@ public class Solution {
             for (int j = 0; j < grid[0].Length; j++) {
                 if (grid[i][j].Equals('1')) {
                     res++;
-                    ExploreLand(grid, i, j);
+                    this.ExploreLand(grid, i, j);
                 }
             }
         }
@@ -24,9 +24,9 @@ public class Solution {
         
         grid[i][j] = '0';
 
-        ExploreLand(grid, i-1, j);
-        ExploreLand(grid, i+1, j);
-        ExploreLand(grid, i, j-1);
-        ExploreLand(grid, i, j+1);
+        this.ExploreLand(grid, i-1, j);
+        this.ExploreLand(grid, i+1, j);
+        this.ExploreLand(grid, i, j-1);
+        this.ExploreLand(grid, i, j+1);
     }
 }
