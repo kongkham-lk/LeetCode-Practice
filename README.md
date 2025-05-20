@@ -9,6 +9,7 @@
 | [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
 | [0128-longest-consecutive-sequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
+| [0200-number-of-islands](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0212-word-search-ii) |
 | [0238-product-of-array-except-self](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0268-missing-number) |
@@ -84,6 +85,7 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0200-number-of-islands) |
 ## Backtracking
 |  |
 | ------- |
@@ -93,11 +95,13 @@
 |  |
 | ------- |
 | [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Matrix
 |  |
 | ------- |
 | [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0212-word-search-ii) |
 ## Two Pointers
 |  |
@@ -116,4 +120,8 @@
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0211-design-add-and-search-words-data-structure) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
