@@ -13,7 +13,7 @@ public class Solution {
         int res = 0;
         for (int i = 0; i < grid.Length; i++) {
             for (int j = 0; j < grid[0].Length; j++) {
-                if (grid[i][j].Equals('1')) {
+                if (grid[i][j] == '1') {
                     res++;
                     ExploreLand(grid, i, j);
                 }
@@ -23,7 +23,7 @@ public class Solution {
     }
 
     private void ExploreLand(char[][] grid, int i, int j) {
-        if (i < 0 || i >= grid.Length || j < 0 || j >= grid[0].Length || !grid[i][j].Equals('1')) return;
+        if (i < 0 || i >= grid.Length || j < 0 || j >= grid[0].Length || grid[i][j] != '1') return;
         
         grid[i][j] = '0';
 
