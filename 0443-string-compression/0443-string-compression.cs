@@ -14,7 +14,6 @@ public class Solution {
             } else
                 val[i]++;
         }
-        // Sort(key, val);
         
         return Combine(key, val, chars);
     }
@@ -30,20 +29,5 @@ public class Solution {
             j++;
         }
         return i;
-    }
-
-    private void Sort(List<char> key, List<int> val) {
-        for (int i = 1; i < key.Count(); i++) {
-            if (key[i] - key[i-1] < 0) {
-                Swap(key, i);
-                Swap(val, i);
-            }
-        }
-    }
-
-    private void Swap<T>(List<T> list, int i) {
-        T t = list[i];
-        list[i] = list[i-1];
-        list[i-1] = t;
     }
 }
