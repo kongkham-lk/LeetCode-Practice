@@ -8,6 +8,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0075-sort-colors](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
 | [0200-number-of-islands](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0200-number-of-islands) |
@@ -66,6 +67,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
 | [0806-domino-and-tromino-tiling](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0806-domino-and-tromino-tiling) |
 ## Trie
