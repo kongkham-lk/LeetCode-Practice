@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0001-two-sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0075-sort-colors](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
@@ -24,6 +25,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
