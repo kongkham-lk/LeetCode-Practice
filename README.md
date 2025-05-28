@@ -13,6 +13,7 @@
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
 | [0200-number-of-islands](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0212-word-search-ii) |
+| [0217-contains-duplicate](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0283-move-zeroes) |
@@ -31,6 +32,7 @@
 | [0133-clone-graph](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0133-clone-graph) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0208-implement-trie-prefix-tree) |
+| [0217-contains-duplicate](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0268-missing-number) |
 ## Math
 |  |
@@ -50,6 +52,7 @@
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0075-sort-colors) |
+| [0217-contains-duplicate](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0268-missing-number) |
 ## String
 |  |
