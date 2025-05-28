@@ -7,6 +7,8 @@ public class Solution {
         HashSet<(int, int)> atl = new HashSet<(int, int)>();
 
         IList<IList<int>> res = new List<IList<int>>();
+
+        // need to go through every element of the most top, bottom, left, and right to make sure that every element go through the checked
         for (int i = 0; i < heights[0].Length; i++) {
             Dfs(heights, 0, i, pac, heights[0][i]);
             Dfs(heights, ROW-1, i, atl, heights[ROW-1][i]);
