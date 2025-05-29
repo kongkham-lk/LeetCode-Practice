@@ -7,11 +7,11 @@ public class Solution {
             if (memo.Contains(n)) {
                 res++;
                 memo.Remove(n);
-                Console.WriteLine("rm : " + n);
+                // Console.WriteLine("rm : " + n);
             } else {
-                int temp = k - n;
-                memo.Add(temp);
-                Console.WriteLine("add: " + temp);
+                // int temp = k - n;
+                memo.Add(k - n);
+                // Console.WriteLine("add: " + temp);
             }
         }
         return res;
