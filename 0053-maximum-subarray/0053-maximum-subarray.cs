@@ -1,7 +1,5 @@
 public class Solution {
     public int MaxSubArray(int[] nums) {
-        if (nums.Length == 1) return nums[0];
-
         List<int> res = new List<int>();
         int max = 0;
         for (int i = 0; i < nums.Length; i++) {
