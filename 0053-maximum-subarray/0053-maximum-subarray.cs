@@ -1,15 +1,13 @@
 public class Solution {
     public int MaxSubArray(int[] nums) {
-        List<int> res = new List<int>();
-        int max = 0;
-        for (int i = 0; i < nums.Length; i++) {
-            max += nums[i];
-            res.Add(max);
-            if (max < 0)
-                max = 0;
-            // Console.WriteLine(nums[i] + ", " + max);
+        int max = nums[0];
+        int curr = max;
+        for (int i = 1; i < nums.Length; i++) {
+            int temp = nums[i];
+            curr = Math.Max(temp, temp+curr);
+            max = Math.Max(curr, max);
         }
             
-        return res.Max();
+        return max;
     }
 }
