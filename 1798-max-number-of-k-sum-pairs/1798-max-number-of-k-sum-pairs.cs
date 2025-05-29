@@ -4,13 +4,13 @@ public class Solution {
         int res = 0;
 
         foreach(int n in nums) {
+            int temp = k - n;
             if (memo.Contains(n)) {
                 res++;
                 memo.Remove(n);
                 // Console.WriteLine("rm : " + n);
             } else {
-                // int temp = k - n;
-                memo.Add(k - n);
+                memo.Add(temp);
                 // Console.WriteLine("add: " + temp);
             }
         }
