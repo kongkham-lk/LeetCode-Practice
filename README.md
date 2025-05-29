@@ -6,6 +6,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0001-two-sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0033-search-in-rotated-sorted-array) |
+| [0053-maximum-subarray](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -70,6 +71,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
 | [0806-domino-and-tromino-tiling](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0806-domino-and-tromino-tiling) |
@@ -151,4 +153,8 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0207-course-schedule) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
