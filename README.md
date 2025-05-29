@@ -65,6 +65,7 @@
 | [0211-design-add-and-search-words-data-structure](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0212-word-search-ii) |
 | [0345-reverse-vowels-of-a-string](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0345-reverse-vowels-of-a-string) |
+| [0392-is-subsequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0443-string-compression) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1894-merge-strings-alternately](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1894-merge-strings-alternately) |
@@ -74,6 +75,7 @@
 | [0053-maximum-subarray](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0139-word-break) |
+| [0392-is-subsequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0392-is-subsequence) |
 | [0806-domino-and-tromino-tiling](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0806-domino-and-tromino-tiling) |
 ## Trie
 |  |
@@ -126,6 +128,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0345-reverse-vowels-of-a-string) |
+| [0392-is-subsequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0443-string-compression) |
 | [1894-merge-strings-alternately](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1894-merge-strings-alternately) |
 ## Prefix Sum
