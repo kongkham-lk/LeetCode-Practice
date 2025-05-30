@@ -60,6 +60,7 @@
 | [0217-contains-duplicate](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0268-missing-number) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1970-sorting-the-sentence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1970-sorting-the-sentence) |
 ## String
 |  |
 | ------- |
@@ -74,6 +75,7 @@
 | [0443-string-compression](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0443-string-compression) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1894-merge-strings-alternately](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1894-merge-strings-alternately) |
+| [1970-sorting-the-sentence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1970-sorting-the-sentence) |
 ## Dynamic Programming
 |  |
 | ------- |
