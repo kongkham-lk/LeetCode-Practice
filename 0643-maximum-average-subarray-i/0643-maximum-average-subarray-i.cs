@@ -1,14 +1,14 @@
 public class Solution {
     public double FindMaxAverage(int[] nums, int k) {
-        int max = 0;
+        double max = 0;
         for (int i = 0; i < k; i++)
             max += nums[i];
 
-        int curr = max;
+        double curr = max;
         for (int i = k; i < nums.Length; i++) {
-            curr = curr + nums[i] - nums[i-k];
+            curr += nums[i] - nums[i-k];
             max = Math.Max(max, curr);
         }
-        return (double)max / k;
+        return max / k;
     }
 }
