@@ -22,6 +22,7 @@
 | [0334-increasing-triplet-subsequence](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0334-increasing-triplet-subsequence) |
 | [0417-pacific-atlantic-water-flow](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0417-pacific-atlantic-water-flow) |
 | [0605-can-place-flowers](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0605-can-place-flowers) |
+| [0643-maximum-average-subarray-i](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0643-maximum-average-subarray-i) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1293-three-consecutive-odds](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1293-three-consecutive-odds) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1528-kids-with-the-greatest-number-of-candies) |
@@ -167,4 +168,8 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0053-maximum-subarray) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
