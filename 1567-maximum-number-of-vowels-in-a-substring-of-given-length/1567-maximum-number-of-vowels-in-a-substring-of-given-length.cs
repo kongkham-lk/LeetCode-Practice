@@ -6,14 +6,14 @@ public class Solution {
         int max = res;
         string vow = "aeiou";
         while (r < s.Length) {
-            Console.Write(s[l] + ", " + s[r] + ", ");
+            // Console.Write(s[l] + ", " + s[r] + ", ");
             if (vow.Contains(s[r])) {
                 res++;
             }
             if (vow.Contains(s[l]) && res > 0 && r-l >= k)
                 res--;
             max = Math.Max(res, max);
-            Console.WriteLine(res);
+            // Console.WriteLine(res);
             r++;
             if (r > k)
                 l++;
