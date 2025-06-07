@@ -123,6 +123,7 @@
 | [0207-course-schedule](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0207-course-schedule) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0417-pacific-atlantic-water-flow](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0417-pacific-atlantic-water-flow) |
+| [0543-diameter-of-binary-tree](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0543-diameter-of-binary-tree) |
 ## Matrix
 |  |
 | ------- |
@@ -176,4 +177,12 @@
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0643-maximum-average-subarray-i) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+## Tree
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0543-diameter-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/kongkham-lk/LeetCode-Practice/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
